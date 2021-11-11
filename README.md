@@ -9,24 +9,19 @@ Each document in the dataset is classified as fact, fake, or undefined. Moreover
 
 <pre>
 LimeSoda/
-  -Train/
-    -DataFile1
-    -DataFile2
-    -...
-  -Test/
-    -Dir/
-      -DataFile1
-      -DataFile2
-      -...
+  -LimeSoda/
+    -Limesoda.jsonl
   -README.md
 </pre>
 
 ## Dataset Format
 
 Each line in the jsonlines file contains:
-- **words** - a list of tokens tokenized by PyICU 2.4.3.
-- **token_labels** - a list of token labels (token-level tags)
-- **label** - "Fact News", "Fake News", or "Undefined"
+- **Title** - a news headline which tokenized by PyICU 2.4.3.
+- **Detail** - a news content which tokenized by PyICU 2.4.3.
+- **Title Token Tags** - a token labels of a news headline (token-level tags).
+- **Detail Token Tags** - a token labels of a news content (token-level tags).
+- **Document Tag** - "Fact News", "Fake News", or "Undefined"
 
 ## Get Started
 

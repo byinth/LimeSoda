@@ -10,9 +10,12 @@ Each document in the dataset is classified as fact, fake, or undefined. Moreover
 <pre>
 LimeSoda/
   -LimeSoda/
+    -Duplicated_Limesoda.jsonl
     -Limesoda.jsonl
   -README.md
 </pre>
+
+Please note that the duplicated documents has been splitted into "Duplicated_Limesoda.jsonl" already.
 
 ## Dataset Format
 

@@ -46,5 +46,14 @@ data = read_jsonlines(<i><b>"put your file path here"</b></i>)
 If you find this repo useful, please cite our paper.
 
 <pre>
---- Coming Soon ---
+@INPROCEEDINGS{9678187,
+  author={Payoungkhamdee, Patomporn and Porkaew, Peerachet and Sinthunyathum, Atthasith and Songphum, Phattharaphon and Kawidam, Witsarut and Loha-Udom, Wichayut and Boonkwan, Prachya and Sutantayawalee, Vipas},
+  booktitle={2021 16th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)}, 
+  title={LimeSoda: Dataset for Fake News Detection in Healthcare Domain}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/iSAI-NLP54397.2021.9678187}
+}
 </pre>
